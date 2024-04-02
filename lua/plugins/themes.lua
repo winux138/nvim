@@ -1,5 +1,5 @@
 return {
-        -- add gruvbox
+        { "axvr/photon.vim" },
         { "alligator/accent.vim" },
         { "ntk148v/komau.vim" },
 
@@ -7,7 +7,7 @@ return {
         {
                 "LazyVim/LazyVim",
                 opts = {
-                        colorscheme = "komau",
+                        colorscheme = "antiphoton",
                 },
         },
 }
