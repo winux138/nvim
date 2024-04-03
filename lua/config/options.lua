@@ -3,3 +3,7 @@
 -- Add any additional options here
 vim.go.background = "light"
 vim.g.autoformat = false
+
+vim.opt.shiftwidth = 8 -- Size of an indent
+vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.tabstop = 8 -- Number of spaces tabs count for
